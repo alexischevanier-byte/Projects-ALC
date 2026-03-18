@@ -1,6 +1,8 @@
 # Projects-ALC
 Repository of practice projects
+
 Tesla and GameStop Stock vs Revenue Analysis
+
 📊 Objective
 
 Analyze the relationship between Tesla and GameStop's stock price and its revenue over time.
