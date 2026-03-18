@@ -1,46 +1,48 @@
-# Projects-ALC
-Repository of practice projects
+# 📊 GameStop Stock vs Revenue Analysis
 
-Tesla and GameStop Stock vs Revenue Analysis
+## 🎯 Objective
 
-📊 Objective
+Analyze the relationship between GameStop’s stock price and its revenue to identify patterns and potential market anomalies.
 
-Analyze the relationship between Tesla and GameStop's stock price and its revenue over time.
+## 🛠️ Tools & Technologies
 
-🛠️ Tools Used
+* Python
+* Pandas
+* Matplotlib
+* yfinance (stock data)
+* BeautifulSoup (web scraping)
 
-Python
+## 📥 Data Collection
 
-Pandas
+* Stock data obtained using **yfinance**
+* Revenue data scraped from **Macrotrends**
 
-Matplotlib
+## 🧹 Data Cleaning
 
-yfinance
+* Converted date columns to datetime format
+* Removed symbols ($, commas) from revenue data
+* Handled missing values
 
-Web Scraping (BeautifulSoup)
+## 📈 Analysis
 
-📈 Analysis
+* Compared stock price vs revenue over time
+* Visualized trends using line plots
+* Identified inconsistencies between financial performance and stock behavior
 
-Extracted stock data using yfinance
+## 🔍 Key Insights
 
-Scraped revenue data from Macrotrends
+* GameStop experienced an abnormal stock price surge in 2021
+* Revenue did not increase proportionally during this period
+* Suggests external market factors (e.g., speculation) influenced stock price
 
-Cleaned and prepared datasets
+## 📁 Project Structure
 
-Visualized stock price vs revenue trends
+* `gme_stock_analysis.ipynb` → Main notebook with full analysis
 
-🔍 Key Insights
+## 🚀 Conclusion
 
-GameStop stock shows unusual spikes in 2021
+This analysis highlights how stock prices can diverge from fundamental metrics like revenue, emphasizing the importance of market sentiment in financial behavior.
 
-Stock behavior does not fully align with revenue trends
+## 👤 Author
 
-External market factors likely influenced price movements
-
-📁 Files
-
-GitHubp1.ipynb → Main analysis notebook
-
-🚀 Author
-
-Alexis Lopez Chevanier
+Alexis Lopez
